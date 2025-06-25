@@ -5,7 +5,7 @@ body {
 }
 
 .main_container {
-  background: url('Group 6.png');
+  background: url('Plus.png');
   background-size: cover;
   padding: 60px 20px;
   text-align: center;;
@@ -88,7 +88,6 @@ body {
   cursor: pointer;
   height: 46px;
   width: 70px;
-  background-image: url('finalize.png');
   background-repeat: no-repeat;
   background-position: 10px center;
   background-size: 24px 24px;
