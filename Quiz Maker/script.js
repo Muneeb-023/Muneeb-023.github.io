@@ -32,8 +32,8 @@ function addQuestion() {
 
         const finalizeBtn = document.createElement('button');
         const img = document.createElement('img');
-        img.src = 'vector.png';
-        img.alt = 'Finalize';
+        img.src = 'Add.png';
+        img.alt = 'Add';
         // img.style.width = '16px';
         // img.style.height = '16px';
         finalizeBtn.appendChild(img);
