@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Book Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Book Catalog</h1>
+
+  <button onclick="window.location.href='search.html'">Go to Search</button>
+
+  <form id="book-form">
+    <input type="text" id="title" placeholder="Book Title" />
+    <input type="text" id="author" placeholder="Author Name" />
+    <input type="url" id="cover" placeholder="Cover Image URL" />
+    <input type="number" id="price" placeholder="Price" />
+    <button type="submit">Submit</button>
+  </form>
+
+  <hr>
+
+  <div id="book-list" class="card-container">
+    <!-- Book cards will go here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
